@@ -1,6 +1,6 @@
 *scratch.txt*	Emacs like scratch buffer
 
-Version 0.1+
+Version 0.1.1
 Script ID: 2107
 Copyright (C) 2007 kana <http://whileimautomaton.net/>
 License: MIT license  {{{
@@ -211,7 +211,7 @@ BUGS						*scratch-bugs*
 ==============================================================================
 CHANGELOG					*scratch-changelog*
 
-0.1+	2008-01-13T00:47:42+09:00		*scratch-changelog-0.1+*
+0.1.1	2008-01-13T00:47:42+09:00		*scratch-changelog-0.1.1*
 	- Modify |:ScratchEvaluate| to accept |line-continuation|.
 	- scratch#open(): Modify not to use g:scratch_show_command in some
 	  cases to avoid showing the scratch buffer in two windows.
