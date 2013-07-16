@@ -168,9 +168,9 @@ function! s:initialize_scratch_buffer()  "{{{2
     $
   endif
 
-  silent! map <buffer> <unique> <CR>  <Plug>scratch-evaluate
-  silent! map <buffer> <unique> <C-m>  <Plug>scratch-evaluate
-  silent! map <buffer> <unique> <C-j>  <Plug>scratch-evaluate
+  silent! map <buffer> <unique> <CR>  <Plug>(scratch-evaluate)
+  silent! map <buffer> <unique> <C-m>  <Plug>(scratch-evaluate)
+  silent! map <buffer> <unique> <C-j>  <Plug>(scratch-evaluate)
 endfunction
 
 
